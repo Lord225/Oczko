@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Menu">
+      <UniqueIdentifier>{70975768-8318-4640-b5dc-3a7109917a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Karty">
+      <UniqueIdentifier>{cad14811-731f-451c-9c62-20505b5c668f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Utility">
+      <UniqueIdentifier>{c83263a8-79d2-4921-977b-a766df364b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Gra">
+      <UniqueIdentifier>{b75d202e-eb2d-47b4-86e6-247aaec65aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Utility\State Interface">
+      <UniqueIdentifier>{ca48bc51-7688-40e6-a0bb-cfa2fa0afce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Gra\Players">
+      <UniqueIdentifier>{a712e869-0400-495f-a2e6-ca78fccc5648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Karty\Objects">
+      <UniqueIdentifier>{f72c329b-8b75-4bdb-85b8-48f0156cbfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Utility\Animations">
+      <UniqueIdentifier>{39865b76-4911-4a26-80bf-22becb005cc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp">
+      <Filter>Pliki nagłówkowe\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Pliki nagłówkowe\Karty</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuButton.cpp">
+      <Filter>Pliki nagłówkowe\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Pliki nagłówkowe\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapping.cpp">
+      <Filter>Pliki nagłówkowe\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Pliki nagłówkowe\Gra</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMenager.cpp">
+      <Filter>Pliki nagłówkowe\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Oczko.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameButton.cpp">
+      <Filter>Pliki nagłówkowe\Gra</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackJackGame.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Pliki nagłówkowe\Utility\State Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Pliki nagłówkowe\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuButton.h">
+      <Filter>Pliki nagłówkowe\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Pliki nagłówkowe\Karty</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Pliki nagłówkowe\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapping.h">
+      <Filter>Pliki nagłówkowe\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Pliki nagłówkowe\Gra</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMenager.h">
+      <Filter>Pliki nagłówkowe\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameButton.h">
+      <Filter>Pliki nagłówkowe\Gra</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackJackGame.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Pliki nagłówkowe\Utility\State Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>Pliki nagłówkowe\Gra\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\Gra\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="CardPack.h">
+      <Filter>Pliki nagłówkowe\Karty\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSprite.h">
+      <Filter>Pliki nagłówkowe\Karty\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CardStack.h">
+      <Filter>Pliki nagłówkowe\Karty\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Pliki nagłówkowe\Gra\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Pliki nagłówkowe\Utility\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateAnimation.h">
+      <Filter>Pliki nagłówkowe\Utility\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="SpretSheetAnimation.h">
+      <Filter>Pliki nagłówkowe\Utility\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInAnimation.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitAnimation.h">
+      <Filter>Pliki nagłówkowe\Utility\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup.h">
+      <Filter>Pliki nagłówkowe\Gra</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
