@@ -1,5 +1,5 @@
 # Oczko
-Gra w Oczko napisana w SFML
+Gra w Oczko napisana z pomocą biblioteki SFML
 
 Zasady:
 https://www.youtube.com/watch?v=eyoh-Ku9TCI
